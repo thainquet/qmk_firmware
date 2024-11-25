@@ -15,7 +15,8 @@
         "encoder": true,
         "extrakey": true,
         "mousekey": true,
-        "nkro": false
+        "nkro": false,
+        "via": true
     },
     "qmk": {
         "locking": {
