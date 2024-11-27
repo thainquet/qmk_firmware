@@ -8,25 +8,6 @@
     "pid": "0x7171",
     "vid": "0x7171"
   },
-  "ws2812": {
-    "pin": "D3"
-  },
-  "rgblight": {
-    "saturation_steps": 8,
-    "brightness_steps": 8,
-    "led_count": 40,
-    "sleep": true,
-    "animations": {
-      "breathing": true,
-      "rainbow_mood": true,
-      "rainbow_swirl": true,
-      "snake": true,
-      "knight": true,
-      "christmas": true,
-      "static_gradient": true,
-      "rgb_test": true
-    }
-  },
   "features": {
     "bootmagic": true,
     "command": false,
@@ -34,7 +15,6 @@
     "extrakey": true,
     "mousekey": true,
     "nkro": false,
-    "rgblight": true,
     "via": true
   },
   "qmk": {
