@@ -76,7 +76,9 @@
       "solid_multisplash": true
     },
     "driver": "ws2812",
-    "center_point": [127, 48]
+    "center_point": [127, 48],
+    "split": true,
+    "split_count": [31, 31]
   },
   "features": {
     "bootmagic": true,
