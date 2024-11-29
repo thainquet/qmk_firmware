@@ -12,22 +12,10 @@
     "pin": "D3"
   },
   "rgblight": {
-    "saturation_steps": 8,
-    "brightness_steps": 8,
     "led_count": 62,
     "sleep": true,
-    "animations": {
-      "breathing": true,
-      "rainbow_mood": true,
-      "rainbow_swirl": true,
-      "snake": true,
-      "knight": true,
-      "christmas": true,
-      "static_gradient": true,
-      "rgb_test": true,
-      "alternating": true,
-      "twinkle": true
-    }
+    "split": true,
+    "split_count": [31, 31]
   },
   "rgb_matrix": {
     "animations": {
@@ -77,7 +65,6 @@
     },
     "driver": "ws2812",
     "center_point": [127, 48],
-    "split": true,
     "split_count": [31, 31]
   },
   "features": {
@@ -104,6 +91,16 @@
     "enabled": true,
     "serial": {
       "pin": "D2"
+    },
+    "transport": {
+      "sync": {
+        "activity": true,
+        "indicators": true,
+        "layer_state": true,
+        "matrix_state": true,
+        "modifiers": true,
+        "wpm": true
+      }
     }
   },
   "diode_direction": "COL2ROW",
