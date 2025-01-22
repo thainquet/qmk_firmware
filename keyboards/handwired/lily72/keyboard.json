@@ -20,7 +20,7 @@
   },
   "ws2812": {
     "driver": "vendor",
-    "pin": "GP3"
+    "pin": "GP2"
   },
   "rgblight": {
     "led_count": 72,
