@@ -9,7 +9,7 @@
         "vid": "0x7474"
     },
     "ws2812": {
-      "pin": "GP2",
+      "pin": "GP5",
       "driver": "vendor"
     },
     "rgblight": {
