@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 #ifdef OLED_ENABLE
 
 #include <stdio.h>
-// #include <oled.c>
-#include <luna.c>
+#include <bongocat.c>
+// #include <luna.c>
 
 #endif
