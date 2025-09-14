@@ -23,10 +23,10 @@
     "pin": "GP2"
   },
   "rgblight": {
-    "led_count": 72,
+    "led_count": 80,
     "sleep": true,
     "split": true,
-    "split_count": [36, 36],
+    "split_count": [40, 40],
     "animations": {
       "breathing": true,
       "rainbow_mood": true,
