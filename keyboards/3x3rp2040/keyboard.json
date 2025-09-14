@@ -39,7 +39,9 @@
         "nkro": false,
         "rgblight": true,
         "via": true,
-        "oled": true
+        "oled": true,
+        "joystick": true,
+        "wpm": true
     },
     "qmk": {
         "locking": {
