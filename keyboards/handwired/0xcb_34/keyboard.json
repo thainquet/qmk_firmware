@@ -2,6 +2,8 @@
   "keyboard_name": "0xcb_34",
   "bootloader": "rp2040",
   "diode_direction": "COL2ROW",
+  "manufacturer": "Thai Nguyen",
+  "maintainer": "thainquet",
   "features": {
     "bootmagic": true,
     "command": false,
@@ -9,7 +11,9 @@
     "extrakey": true,
     "mousekey": true,
     "nkro": true,
-    "via": true
+    "via": true,
+    "oled": true,
+    "wpm": true
   },
   "matrix_pins": {
     "cols": [
