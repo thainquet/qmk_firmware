@@ -82,6 +82,12 @@ static void render_anim(void) {
     };
 
     void animation_phase(void) {
+        oled_clear();
+        
+        oled_set_cursor(0, 0);
+        oled_write_P(PSTR("QT"), false);
+        // oled_set_cursor(0, 1);
+        // oled_write_P(PSTR("0xcb_34"), false);
 
         if (get_current_wpm() <=IDLE_SPEED) {
             current_idle_frame = (current_idle_frame + 1) % IDLE_FRAMES;
